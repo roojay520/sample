@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Roojay">
+    <meta name="description" content="css layout,flying wing">
+    <title>淘宝双飞翼布局</title>
+    <style type="text/css">
+        body {
+            padding: 0;
+            margin: 0;
+            min-width: 440px;
+            
+        }
+
+        .header,
+        .footer {
+            background-color: #1c262f;
+            color: white;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .col {
+            float: left;
+            color: white;
+            text-align: justify;
+            /* 文字两端对齐 */
+        }
+
+        .main {
+            width: 100%;
+            
+        }
+
+        .sub {
+            background-color: #ea4335;
+            width: 120px;
+            margin-left: -100%;
+        }
+
+        .extra {
+            background-color: #34a853;
+            width: 200px;
+            margin-left: -200px;
+        }
+
+        .main-wrap {
+            margin-left: 120px;
+            margin-right: 200px;
+            background-color: #4285f3;
+        }
+
+        .footer {
+            clear: both;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <strong>三栏布局之双飞翼布局</strong>
+    </div>
+    <div class="container">
+        <div class="col main">
+            <div class="main-wrap">
+                <strong>主列</strong>
+                我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。我是一个宽度自适应的主列。</div>
+        </div>
+        <div class="col sub">
+            <strong>子列</strong>
+            我是一个子列。我是一个子列。我是一个子列。我是一个子列。我是一个子列。我是一个子列。</div>
+        <div class="col extra">
+            <strong>附加列</strong>
+            我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。我是一个附加列。
+        </div>
+    </div>
+    <div class="footer">
+        我是一个底边栏。
+    </div>
+</body>
+
+</html>
