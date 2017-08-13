@@ -30,7 +30,7 @@
         body {
             padding: 0;
             margin: 0;
-            min-width: 440px; 
+            min-width: 440px;
         }
         .header,
         .footer {
